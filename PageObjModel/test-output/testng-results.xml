@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestRegisterCustomer" duration-ms="30628" started-at="2020-09-27T03:48:55Z" finished-at="2020-09-27T03:49:26Z">
+    <groups>
+    </groups>
+    <test name="Register Customer" duration-ms="30628" started-at="2020-09-27T03:48:55Z" finished-at="2020-09-27T03:49:26Z">
+      <class name="com.app.tests.RegisterTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.app.tests.RegisterTest@1e643faf]" name="setup" is-config="true" duration-ms="10676" started-at="2020-09-27T09:18:55Z" finished-at="2020-09-27T09:19:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyRegistrationTest()[pri:0, instance:com.app.tests.RegisterTest@1e643faf]" name="verifyRegistrationTest" duration-ms="4288" started-at="2020-09-27T09:19:06Z" finished-at="2020-09-27T09:19:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegistrationTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.app.tests.RegisterTest@1e643faf]" name="tearDown" is-config="true" duration-ms="2203" started-at="2020-09-27T09:19:10Z" finished-at="2020-09-27T09:19:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.app.tests.RegisterTest@1e643faf]" name="setup" is-config="true" duration-ms="9323" started-at="2020-09-27T09:19:13Z" finished-at="2020-09-27T09:19:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyContactLinkTest()[pri:1, instance:com.app.tests.RegisterTest@1e643faf]" name="verifyContactLinkTest" duration-ms="1611" started-at="2020-09-27T09:19:22Z" finished-at="2020-09-27T09:19:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.app.tests.RegisterTest@1e643faf]" name="tearDown" is-config="true" duration-ms="2313" started-at="2020-09-27T09:19:24Z" finished-at="2020-09-27T09:19:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.app.tests.RegisterTest -->
+    </test> <!-- Register Customer -->
+  </suite> <!-- TestRegisterCustomer -->
+</testng-results>
