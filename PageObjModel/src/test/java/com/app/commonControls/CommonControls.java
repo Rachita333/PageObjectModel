@@ -12,7 +12,7 @@ public class CommonControls {
 	}
 	
 	
-	public void switchToDefaultContent(WebDriver driver, String frameId)
+	public void switchToDefaultContent(WebDriver driver)
 	{
 		driver.switchTo().defaultContent();
 		

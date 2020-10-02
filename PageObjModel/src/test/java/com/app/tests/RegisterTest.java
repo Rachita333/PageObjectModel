@@ -6,6 +6,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import com.app.commonControls.CommonControls;
 import com.app.pages.ContactPage;
 import com.app.pages.RegisterPage;
 import com.app.pages.WelcomePage;
@@ -20,6 +21,7 @@ public class RegisterTest extends BaseTest{
 	WelcomePage wPage;
 	RegisterPage rPage;
 	ContactPage cPage;
+	//CommonControls cControls;
 	
 	@BeforeMethod
 	public void setup()
@@ -37,6 +39,7 @@ public class RegisterTest extends BaseTest{
 	@Test
 	public void verifyRegistrationTest() throws IOException
 	{
+		//cControls = new CommonControls();
 		rPage = new RegisterPage(driver);
 		rPage.click_registerLink();
 		rPage.enterFirstName("Test");
@@ -53,6 +56,8 @@ public class RegisterTest extends BaseTest{
 		rPage.enterConfirmPAssword("123");
 		rPage.clickBtnSubmit();
 		rPage.verifyRegisteredUSer("Test");
+		//cControls.switchToFrame(driver, "");
+		//cControls.switchToDefaultContent(driver);
 		
 	}
 	

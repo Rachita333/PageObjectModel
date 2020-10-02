@@ -1,0 +1,26 @@
+How to Execute Project from Maven
+1) Add sure file plugin in pom file in between projects
+2) Google sure fire plugin- https://maven.apache.org/surefire/maven-surefire-plugin/usage.html
+3) click on usage and copy
+1) Navigate to Proj Parent folder/Directory
+2) In explorer type cmd and press enter
+3) give command mvn clean
+4) Give command mvn compile
+5) GIve command mvn test
+
+How to execute sing class in mnv.
+mvn test -Dtest=RegisterTest
+
+****************************************************************
+
+We can control maven execution via TestNG execution 
+
+You need to add below configuration under build tag under version
+ <configuration>
+          <suiteXmlFiles>
+            <suiteXmlFile>regression.xml</suiteXmlFile>
+          </suiteXmlFiles>
+        </configuration>
+
+Then in suiteXmlFile tag we have to pass our testNG file
+

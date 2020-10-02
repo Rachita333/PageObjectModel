@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="TestRegisterCustomer" duration-ms="30628" started-at="2020-09-27T03:48:55Z" finished-at="2020-09-27T03:49:26Z">
+  <suite name="TestRegisterCustomer" duration-ms="29737" started-at="2020-10-02T03:37:42Z" finished-at="2020-10-02T03:38:12Z">
     <groups>
     </groups>
-    <test name="Register Customer" duration-ms="30628" started-at="2020-09-27T03:48:55Z" finished-at="2020-09-27T03:49:26Z">
+    <test name="Register Customer" duration-ms="29737" started-at="2020-10-02T03:37:42Z" finished-at="2020-10-02T03:38:12Z">
       <class name="com.app.tests.RegisterTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.app.tests.RegisterTest@1e643faf]" name="setup" is-config="true" duration-ms="10676" started-at="2020-09-27T09:18:55Z" finished-at="2020-09-27T09:19:06Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.app.tests.RegisterTest@1e643faf]" name="setup" is-config="true" duration-ms="11310" started-at="2020-10-02T09:07:42Z" finished-at="2020-10-02T09:07:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyRegistrationTest()[pri:0, instance:com.app.tests.RegisterTest@1e643faf]" name="verifyRegistrationTest" duration-ms="4288" started-at="2020-09-27T09:19:06Z" finished-at="2020-09-27T09:19:10Z">
+        <test-method status="PASS" signature="verifyRegistrationTest()[pri:0, instance:com.app.tests.RegisterTest@1e643faf]" name="verifyRegistrationTest" duration-ms="4788" started-at="2020-10-02T09:07:54Z" finished-at="2020-10-02T09:07:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegistrationTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.app.tests.RegisterTest@1e643faf]" name="tearDown" is-config="true" duration-ms="2203" started-at="2020-09-27T09:19:10Z" finished-at="2020-09-27T09:19:13Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.app.tests.RegisterTest@1e643faf]" name="tearDown" is-config="true" duration-ms="716" started-at="2020-10-02T09:07:58Z" finished-at="2020-10-02T09:07:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.app.tests.RegisterTest@1e643faf]" name="setup" is-config="true" duration-ms="9323" started-at="2020-09-27T09:19:13Z" finished-at="2020-09-27T09:19:22Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.app.tests.RegisterTest@1e643faf]" name="setup" is-config="true" duration-ms="10223" started-at="2020-10-02T09:07:59Z" finished-at="2020-10-02T09:08:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyContactLinkTest()[pri:1, instance:com.app.tests.RegisterTest@1e643faf]" name="verifyContactLinkTest" duration-ms="1611" started-at="2020-09-27T09:19:22Z" finished-at="2020-09-27T09:19:24Z">
+        <test-method status="PASS" signature="verifyContactLinkTest()[pri:1, instance:com.app.tests.RegisterTest@1e643faf]" name="verifyContactLinkTest" duration-ms="1683" started-at="2020-10-02T09:08:09Z" finished-at="2020-10-02T09:08:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyContactLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.app.tests.RegisterTest@1e643faf]" name="tearDown" is-config="true" duration-ms="2313" started-at="2020-09-27T09:19:24Z" finished-at="2020-09-27T09:19:26Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.app.tests.RegisterTest@1e643faf]" name="tearDown" is-config="true" duration-ms="720" started-at="2020-10-02T09:08:11Z" finished-at="2020-10-02T09:08:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
