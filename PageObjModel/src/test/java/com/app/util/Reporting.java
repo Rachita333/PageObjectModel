@@ -35,12 +35,12 @@ public class Reporting extends TestListenerAdapter {
 		extent.attachReporter(htmlReporter);
 		extent.setSystemInfo("Host name", "localhost");
 		extent.setSystemInfo("Environemnt", "ST");
-		extent.setSystemInfo("user", "Practice");
+		extent.setSystemInfo("user", "Vishal");
 		// Tile of report
 		htmlReporter.config().setDocumentTitle("Mercury Tours");
 		// name of the report
 		htmlReporter.config().setReportName("Functional Test Automation Report");
-		htmlReporter.config().setTheme(Theme.DARK);
+		htmlReporter.config().setTheme(Theme.STANDARD);
 	}
 
 	public void onTestSuccess(ITestResult tr) {

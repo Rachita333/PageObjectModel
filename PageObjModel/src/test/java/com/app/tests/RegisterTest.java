@@ -56,6 +56,8 @@ public class RegisterTest extends BaseTest{
 		
 	}
 	
+	
+	
 	@Test(priority = 1)
 	public void verifyContactLinkTest() throws IOException
 	{

@@ -4,9 +4,15 @@
   <listeners>
     <listener class-name="com.app.util.Reporting"/>
   </listeners>
-  <test name="Register Customer">
+  <test thread-count="5" name="Register Customer(failed)">
     <classes>
-      <class name="com.app.tests.RegisterTest"/>
+      <class name="com.app.tests.RegisterTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verifyRegistrationTest"/>
+        </methods>
+      </class> <!-- com.app.tests.RegisterTest -->
     </classes>
-  </test> <!-- Register Customer -->
+  </test> <!-- Register Customer(failed) -->
 </suite> <!-- Failed suite [TestRegisterCustomer] -->
