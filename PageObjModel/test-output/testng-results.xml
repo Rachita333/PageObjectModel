@@ -2,32 +2,64 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
   <suite name="TestRegisterCustomer" duration-ms="29418" started-at="2020-09-27T04:39:04Z" finished-at="2020-09-27T04:39:34Z">
+=======
+  <suite name="TestRegisterCustomer" duration-ms="29737" started-at="2020-10-02T03:37:42Z" finished-at="2020-10-02T03:38:12Z">
+>>>>>>> branch 'master' of https://github.com/Rachita333/PageObjectModel.git
     <groups>
     </groups>
+<<<<<<< HEAD
     <test name="Register Customer" duration-ms="29418" started-at="2020-09-27T04:39:04Z" finished-at="2020-09-27T04:39:34Z">
+=======
+    <test name="Register Customer" duration-ms="29737" started-at="2020-10-02T03:37:42Z" finished-at="2020-10-02T03:38:12Z">
+>>>>>>> branch 'master' of https://github.com/Rachita333/PageObjectModel.git
       <class name="com.app.tests.RegisterTest">
+<<<<<<< HEAD
         <test-method status="PASS" signature="setup()[pri:0, instance:com.app.tests.RegisterTest@4cf777e8]" name="setup" is-config="true" duration-ms="10283" started-at="2020-09-27T04:39:05Z" finished-at="2020-09-27T04:39:15Z">
+=======
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.app.tests.RegisterTest@1e643faf]" name="setup" is-config="true" duration-ms="11310" started-at="2020-10-02T09:07:42Z" finished-at="2020-10-02T09:07:54Z">
+>>>>>>> branch 'master' of https://github.com/Rachita333/PageObjectModel.git
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
+<<<<<<< HEAD
         <test-method status="PASS" signature="verifyRegistrationTest()[pri:0, instance:com.app.tests.RegisterTest@4cf777e8]" name="verifyRegistrationTest" duration-ms="4759" started-at="2020-09-27T04:39:15Z" finished-at="2020-09-27T04:39:20Z">
+=======
+        <test-method status="PASS" signature="verifyRegistrationTest()[pri:0, instance:com.app.tests.RegisterTest@1e643faf]" name="verifyRegistrationTest" duration-ms="4788" started-at="2020-10-02T09:07:54Z" finished-at="2020-10-02T09:07:58Z">
+>>>>>>> branch 'master' of https://github.com/Rachita333/PageObjectModel.git
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegistrationTest -->
+<<<<<<< HEAD
         <test-method status="PASS" signature="tearDown()[pri:0, instance:com.app.tests.RegisterTest@4cf777e8]" name="tearDown" is-config="true" duration-ms="839" started-at="2020-09-27T04:39:20Z" finished-at="2020-09-27T04:39:21Z">
+=======
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.app.tests.RegisterTest@1e643faf]" name="tearDown" is-config="true" duration-ms="716" started-at="2020-10-02T09:07:58Z" finished-at="2020-10-02T09:07:59Z">
+>>>>>>> branch 'master' of https://github.com/Rachita333/PageObjectModel.git
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
+<<<<<<< HEAD
         <test-method status="PASS" signature="setup()[pri:0, instance:com.app.tests.RegisterTest@4cf777e8]" name="setup" is-config="true" duration-ms="10766" started-at="2020-09-27T04:39:21Z" finished-at="2020-09-27T04:39:31Z">
+=======
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.app.tests.RegisterTest@1e643faf]" name="setup" is-config="true" duration-ms="10223" started-at="2020-10-02T09:07:59Z" finished-at="2020-10-02T09:08:09Z">
+>>>>>>> branch 'master' of https://github.com/Rachita333/PageObjectModel.git
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
+<<<<<<< HEAD
         <test-method status="PASS" signature="verifyContactLinkTest()[pri:1, instance:com.app.tests.RegisterTest@4cf777e8]" name="verifyContactLinkTest" duration-ms="1605" started-at="2020-09-27T04:39:31Z" finished-at="2020-09-27T04:39:33Z">
+=======
+        <test-method status="PASS" signature="verifyContactLinkTest()[pri:1, instance:com.app.tests.RegisterTest@1e643faf]" name="verifyContactLinkTest" duration-ms="1683" started-at="2020-10-02T09:08:09Z" finished-at="2020-10-02T09:08:11Z">
+>>>>>>> branch 'master' of https://github.com/Rachita333/PageObjectModel.git
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyContactLinkTest -->
+<<<<<<< HEAD
         <test-method status="PASS" signature="tearDown()[pri:0, instance:com.app.tests.RegisterTest@4cf777e8]" name="tearDown" is-config="true" duration-ms="831" started-at="2020-09-27T04:39:33Z" finished-at="2020-09-27T04:39:34Z">
+=======
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.app.tests.RegisterTest@1e643faf]" name="tearDown" is-config="true" duration-ms="720" started-at="2020-10-02T09:08:11Z" finished-at="2020-10-02T09:08:12Z">
+>>>>>>> branch 'master' of https://github.com/Rachita333/PageObjectModel.git
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
